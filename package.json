@@ -19,6 +19,7 @@
   "homepage": " https://github.com/JannatulFardouse/bio_tracker.git",
   "scripts": {
     "start": "react-scripts start --openssl-legacy-provider",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",

@@ -16,7 +16,7 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": " https://github.com/JannatulFardouse/bio_tracker.git",
+  "homepage": "https://jannatulfardouse.github.io/bio_tracker",
   "scripts": {
     "start": "react-scripts start --openssl-legacy-provider",
     "build": "react-scripts build",

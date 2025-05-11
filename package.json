@@ -2,6 +2,7 @@
   "name": "biotracker",
   "version": "0.1.0",
   "private": true,
+
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -15,9 +16,11 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": " https://github.com/JannatulFardouse/bio_tracker.git",
   "scripts": {
     "start": "react-scripts start --openssl-legacy-provider",
-    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
